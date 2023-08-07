@@ -24,3 +24,5 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 
 print("Welcome to Treasure Island.Your mission is to find the treasure.")
 dir = input(print("Choose left or right"))
+print("hello")
+print("jole")
