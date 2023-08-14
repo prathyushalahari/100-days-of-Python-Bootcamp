@@ -16,3 +16,6 @@ print(find_random_float)
 '''How to get a random float b/w 0 to 5?'''
 find_random_float2 = random.random()*5  # multiply by end integer:5
 print(find_random_float2)
+
+# OR ANOTHER TECHNIQUE using .choice() gives random element from list directly
+pick_random_item_from_list = random.choice(list_name)
