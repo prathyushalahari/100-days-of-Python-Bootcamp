@@ -17,15 +17,43 @@ size = nr_letters+nr_numbers+nr_symbols
 # Hard Level - Order of characters randomised:
 # e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 
+'''Easy password : uses string'''
 password = ""
 for char in range(1, nr_letters+1):  # input no.of letters required by user
     # .choice() chooses random element from list
     password += random.choice(letters)
-# print(password)
+
 for symbol in range(1, nr_symbols+1):
     password += random.choice(symbols)
 
 for number in range(1, nr_numbers+1):
     password += random.choice(numbers)
 
-print(password)
+print("EASY PASSWORD: "+password)  # LETTER,SYMBOLS,NUM ARE IN ORDER
+print("--------------------------------------------------------------")
+
+'''HARD PASSWORD : To get tough password we use list. List stores all randomly choosen elements and we can shuffle it using random.shuffle() function'''
+
+print("HARD PASSWORD")
+password_list = []
+for char in range(1, nr_letters+1):  # input no.of letters required by user
+    # .choice() chooses random element from list
+    password_list.append(random.choice(letters))
+
+for symbol in range(1, nr_symbols+1):
+    password_list.append(random.choice(symbols))
+
+for number in range(1, nr_numbers+1):
+    password_list.append(random.choice(numbers))
+
+print(f"ORIGINAL LIST: {password_list}")  # password list obtained
+random.shuffle(password_list)
+# password list after randomly shuffling
+print(f"SHUFFLED LIST :{password_list}")
+
+'''TO GET HARD PASSWORD FORMAT CONVERT LIST TO STRING'''
+
+hpassword = ""
+for char in password_list:
+    hpassword += char
+print(f"Hard password is : {hpassword}")
