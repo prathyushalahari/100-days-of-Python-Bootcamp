@@ -28,7 +28,7 @@ hurdle()'''
 
 for step in range(1, 7):
     hurdle()
-    jump()
+
 
 ################################################################
 # WARNING: Do not change this comment.
