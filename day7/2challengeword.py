@@ -2,15 +2,15 @@ import random
 
 word_list = ["ardvark", "baboon", "camel"]
 
-word = random.choice(word_list)
+word = random.choice(word_list)  # chooses random word
 
-print(f'Psst,the solution is{word}.')
+print(f'Psst,the solution is{word}.')  # CHOOSEN WORD
 
-guess = input("Guess a letter: ").lower()
+guess = input("Guess a letter: ").lower()  # lowers the characters
 
-size = len(word)
+size = len(word)  # size of word
 
-display = []
+display = []  # displays empty word of '_'
 for i in range(size):
     display += "_"
 

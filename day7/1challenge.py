@@ -1,4 +1,4 @@
-# guesses whether user input letter present in words present in list
+# guessing whether user input letter present in words present in list
 
 import random
 word_list = ["advark", "baboon", "camel"]
