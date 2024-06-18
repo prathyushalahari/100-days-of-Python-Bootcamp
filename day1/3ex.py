@@ -8,6 +8,6 @@ print(len(s))
 ''' MORE USAGE OF input()..printing and input together.
 input() will get user input in console and then print() will print the word hello and user input'''
 
-print("Hello "+input(" mention name?\n"))
+print("Hello "+input("?mention name?\n"))
 
 # check line-9 in THONNY IDE how print&input together works

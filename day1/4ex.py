@@ -1,5 +1,6 @@
 
-# Exercise 4 - variables
+# Exercise 4 - variables exchange
+
 # link : https://app.codingrooms.com/w/c6g4nahc66BJ
 # 🚨 Don't change the code below 👇
 a = input("a: ")
@@ -14,7 +15,6 @@ a = b
 b = temp
 
 
-# Write your code above this line 👆
 ####################################
 
 # 🚨 Don't change the code below 👇

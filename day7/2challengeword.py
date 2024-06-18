@@ -1,7 +1,6 @@
 import random
 
 word_list = ["ardvark", "baboon", "camel"]
-
 word = random.choice(word_list)  # chooses random word
 
 print(f'Psst,the solution is{word}.')  # CHOOSEN WORD
